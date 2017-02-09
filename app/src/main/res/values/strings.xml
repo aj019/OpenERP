@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Open ERP</string>
+    <string name="openDrawer">Open Drawer</string>
+    <string name="closedDrawer">Closed Drawer</string>
+
+    <string name="hint_email">Enter E-mail</string>
+    <string name="hint_password">Enter Password</string>
+    <string name="btn_login">Login Button</string>
+    <string name="username_cannot_empty">Username can\'t be empty</string>
+    <string name="password_cannot_empty">Password can\'t be empty</string>
+    <string name="no_network_connection">No Internet connection</string>
+    <string name="invalid_email">Invalid Email ID</string>
+    <string name="home">Home</string>
+    <string name="calendar">Calendar</string>
+    <string name="project">Project</string>
+    <string name="timesheets">Timesheets</string>
+    <string name="attendance">Attendance</string>
+    <string name="leaves">Leaves</string>
+    <string name="logout">Logout</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:checked="false"
+            android:icon="@drawable/home_icon"
+            android:title="@string/home" />
+
+        <item
+            android:id="@+id/calendar"
+            android:checked="false"
+            android:icon="@drawable/calendar_icon"
+            android:title="@string/calendar" />
+
+        <item
+            android:id="@+id/project"
+            android:checked="false"
+            android:icon="@drawable/project_icon"
+            android:title="@string/project" />
+
+        <item
+            android:id="@+id/timesheets"
+            android:checked="false"
+            android:icon="@drawable/timesheet_icon"
+            android:title="@string/timesheets" />
+
+        <item
+            android:id="@+id/attendance"
+            android:checked="false"
+            android:icon="@drawable/attendance_icon"
+            android:title="@string/attendance" />
+
+        <item
+            android:id="@+id/leaves"
+            android:checked="false"
+            android:icon="@drawable/leave_icon"
+            android:title="@string/leaves" />
+
+        <item
+            android:id="@+id/logout"
+            android:checked="false"
+            android:icon="@drawable/logout_icon"
+            android:title="@string/logout" />
+
+
+    </group>
+</menu>
