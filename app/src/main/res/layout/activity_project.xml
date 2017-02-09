@@ -30,10 +30,13 @@
                 android:orientation="horizontal"
                 android:gravity="center"
                 android:weightSum="2"
-                android:layout_marginLeft="24dp">
+                android:paddingLeft="24dp"
+                android:paddingRight="24dp"
+                android:background="@color/backgroundcolor">
                 
                 
                 <Button
+                    android:id="@+id/bt_ongoingproject"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:drawableTop="@drawable/ongoing_project_icon"
@@ -44,13 +47,13 @@
                     android:background="@drawable/img_button_background"/>
 
                 <Button
+                    android:id="@+id/bt_tasks"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="6dp"
                     android:drawableTop="@drawable/task_icon"
                     android:text="Tasks"
                     android:layout_weight="1"
-                    android:layout_marginRight="24dp"
                     android:padding="12dp"
                     android:background="@drawable/img_button_background"/>
                 
