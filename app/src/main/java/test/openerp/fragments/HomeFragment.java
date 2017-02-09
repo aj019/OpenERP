@@ -2,12 +2,10 @@ package test.openerp.fragments;
 
 import android.content.Context;
 import android.content.Intent;
-import android.location.Geocoder;
+import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.GestureDetector;
@@ -15,22 +13,13 @@ import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.Spinner;
 
-import java.util.Calendar;
-import java.util.Locale;
-
-import butterknife.BindView;
-import butterknife.ButterKnife;
-import test.openerp.MainActivity;
 import test.openerp.R;
-import test.openerp.activities.AttendanceActivity;
-import test.openerp.activities.CalendarActivity;
-import test.openerp.activities.LeaveActivity;
-import test.openerp.activities.ProjectActivity;
-import test.openerp.activities.TimesheetsActivity;
+import test.openerp.activities.attendance.AttendanceActivity;
+import test.openerp.activities.calendar.CalendarActivity;
+import test.openerp.activities.leaves.LeaveActivity;
+import test.openerp.activities.project.ProjectActivity;
+import test.openerp.activities.timesheets.TimesheetsActivity;
 import test.openerp.adapters.HomeScreenGridAdapter;
 
 public class HomeFragment extends Fragment {

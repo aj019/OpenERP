@@ -20,11 +20,6 @@
         <activity android:name=".LoginActivity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".fragments.HomeFragment" />
-        <activity android:name=".activities.CalendarActivity" />
-        <activity android:name=".activities.ProjectActivity" />
-        <activity android:name=".activities.TimesheetsActivity" />
-        <activity android:name=".activities.AttendanceActivity" />
-        <activity android:name=".activities.LeaveActivity"></activity>
     </application>
 
 </manifest>

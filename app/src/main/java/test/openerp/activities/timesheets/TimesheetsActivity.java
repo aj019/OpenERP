@@ -1,7 +1,7 @@
-package test.openerp.activities;
+package test.openerp.activities.timesheets;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
@@ -9,7 +9,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import test.openerp.R;
 
-public class ProjectActivity extends AppCompatActivity {
+public class TimesheetsActivity extends AppCompatActivity {
 
     @BindView(R.id.toolbar)
     Toolbar toolbar;
@@ -17,12 +17,12 @@ public class ProjectActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_project);
+        setContentView(R.layout.activity_timesheets);
 
         ButterKnife.bind(this);
 
         setSupportActionBar(toolbar);
-        getSupportActionBar().setTitle("Projects");
+        getSupportActionBar().setTitle("Timesheets");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 

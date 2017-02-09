@@ -1,7 +1,7 @@
-package test.openerp.activities;
+package test.openerp.activities.attendance;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
@@ -9,7 +9,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import test.openerp.R;
 
-public class TimesheetsActivity extends AppCompatActivity {
+public class AttendanceActivity extends AppCompatActivity {
 
     @BindView(R.id.toolbar)
     Toolbar toolbar;
@@ -17,12 +17,12 @@ public class TimesheetsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_timesheets);
+        setContentView(R.layout.activity_attendance);
 
         ButterKnife.bind(this);
 
         setSupportActionBar(toolbar);
-        getSupportActionBar().setTitle("Timesheets");
+        getSupportActionBar().setTitle("Attendance");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 

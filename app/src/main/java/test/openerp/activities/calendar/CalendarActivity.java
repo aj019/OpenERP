@@ -1,7 +1,7 @@
-package test.openerp.activities;
+package test.openerp.activities.calendar;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
@@ -9,7 +9,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import test.openerp.R;
 
-public class LeaveActivity extends AppCompatActivity {
+public class CalendarActivity extends AppCompatActivity {
 
     @BindView(R.id.toolbar)
     Toolbar toolbar;
@@ -17,13 +17,14 @@ public class LeaveActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_leave);
-
+        setContentView(R.layout.activity_calendar);
         ButterKnife.bind(this);
 
         setSupportActionBar(toolbar);
-        getSupportActionBar().setTitle("Leaves");
+        getSupportActionBar().setTitle("Calendar");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+
     }
 
     @Override
