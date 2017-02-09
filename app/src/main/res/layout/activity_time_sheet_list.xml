@@ -23,37 +23,26 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
-            <LinearLayout
+            <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:padding="36dp"
-                android:gravity="center"
                 android:background="@color/backgroundcolor">
 
-                <Button
-                    android:id="@+id/bt_mytimesheet"
-                    android:layout_width="match_parent"
+                <android.support.design.widget.FloatingActionButton
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="My Timesheets"
-                    android:textSize="20sp"
-                    android:padding="12dp"
-                    android:drawableTop="@drawable/my_timesheet_icon"
-                    android:background="@drawable/img_button_background"/>
+                    android:layout_gravity="bottom|right"
+                    android:padding="8dp"
+                    android:layout_marginRight="@dimen/fab_margin"
+                    android:layout_marginBottom="@dimen/fab_margin"
+                    />
 
 
-                <Button
-                    android:id="@+id/bt_teamtimesheet"
+                <android.support.v7.widget.RecyclerView
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="36dp"
-                    android:text="Team Timesheets"
-                    android:textSize="20sp"
-                    android:padding="12dp"
-                    android:drawableTop="@drawable/team_timesheet_icon"
-                    android:background="@drawable/img_button_background"/>
+                    android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
 
-            </LinearLayout>
+            </FrameLayout>
 
         </LinearLayout>
     </android.support.v4.widget.DrawerLayout>
