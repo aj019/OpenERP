@@ -29,7 +29,7 @@
                 android:orientation="vertical"
                 android:padding="36dp"
                 android:gravity="center"
-                android:background="@color/backgroundcolor">
+                >
 
                 <Button
                     android:id="@+id/bt_mytimesheet"
